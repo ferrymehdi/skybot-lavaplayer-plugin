@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "org.ferrymehdi"
-version = "1.0.0"
+version = "1.1.0"
 
 java {
     toolchain {
@@ -43,7 +43,7 @@ publishing {
             from(components["java"])
             groupId = "org.ferrymehdi"
             artifactId = "skybot-lavaplayer-plugin"
-            version = "1.0.0"
+            version = "1.1.0"
         }
     }
     repositories {
